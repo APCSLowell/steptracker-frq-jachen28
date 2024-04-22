@@ -16,7 +16,7 @@ public void addDailySteps(int num){
 public int activeDays(){
 int days = 0;
 for(int i = 0; i < arr.size(); i++){
- if(arr.get(i) >= steps)
+ if(arr.get(i) >= num1)
 days++;
 }
  return days;
