@@ -6,7 +6,7 @@ private ArrayList <Integer> arr;
 
 public StepTracker(int steps) {
 num1 = steps; 
-ArrayList <Integer> arr = new ArrayList<Integer>();
+arr = new ArrayList<Integer>();
 }
 
 public void addDailySteps(int num){
